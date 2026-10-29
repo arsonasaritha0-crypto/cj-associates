@@ -4,7 +4,7 @@
   2. Replace the sample project concept illustrations with your own authorised project images when ready.
   3. To add a WhatsApp button, add your phone number in international format (India = 91 followed by the number) and update the contact section.
 */
-const CONTACT_EMAIL = "YOUR_EMAIL@example.com";
+const CONTACT_EMAIL = "";
 
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".nav");
@@ -35,8 +35,8 @@ const status = document.getElementById("formStatus");
 form.addEventListener("submit", function (event) {
   event.preventDefault();
 
-  if (CONTACT_EMAIL === "YOUR_EMAIL@example.com") {
-    status.textContent = "Before using this form, open script.js and replace YOUR_EMAIL@example.com with your real business email address.";
+  if (CONTACT_EMAIL === "") {
+    status.textContent = "Before using this form, open script.js and replace  with your real business email address.";
     return;
   }
 

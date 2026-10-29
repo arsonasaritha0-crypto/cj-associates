@@ -188,3 +188,21 @@ h2 { font-size:clamp(39px,4.8vw,65px); line-height:1.08; margin-bottom:0; }
   .footer-links { grid-column:auto; grid-row:auto; justify-content:flex-start; }
   .copyright { grid-column:auto; }
 }
+
+/* Added for CJ Associates leadership and direct contact details */
+.leadership-strip, .contact-details {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid rgba(55, 67, 71, .22);
+  border-bottom: 1px solid rgba(55, 67, 71, .22);
+}
+.leadership-strip h3 { margin: .55rem 0 .2rem; }
+.leadership-strip p, .contact-details p { margin: .35rem 0; }
+.contact-details { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.contact-details a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+@media (max-width: 640px) {
+  .leadership-strip, .contact-details { grid-template-columns: 1fr; gap: 1rem; }
+}
