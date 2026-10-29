@@ -1,24 +1,22 @@
-CJ ASSOCIATES WEBSITE — UPDATED CONTACT DETAILS
+CJ ASSOCIATES WEBSITE — MINIMAL BLACK & WHITE VERSION
 
-Files:
-- index.html
-- styles.css
-- script.js
+This package refreshes the site with a clean monochrome look: white background, black text, simple lines, no decorative patterns, and a restrained logo-led hero.
 
-Updated:
-- Location: Thiruvananthapuram, Kerala, India
+Updated business details:
+- CJ Associates
+- Thiruvananthapuram, Kerala
 - Managing Director: Climint CJ
 - Managing Partner: Sona S
 - WhatsApp / phone: +91 96330 46850 and +91 79940 06869
 - Instagram: @__cj_associates
 
-Email was not supplied, so the website does not invent one. Add a business email later if desired.
+IMPORTANT LOGO NOTE:
+The supplied logo image is not embedded in this ZIP. The hero currently uses a simple typographic CJ placeholder, with a note indicating that the actual logo image should be added. To use the exact supplied logo, save it as logo.png and upload it to the repository; then it can be added to the page.
 
-To update the live GitHub Pages website:
-1. Open your repository: https://github.com/arsonasaritha0-crypto/cj-associates
-2. Choose Add file > Upload files.
-3. Upload index.html, styles.css, and script.js from this folder, replacing the existing files.
-4. Commit changes.
-5. Wait a few minutes and refresh the published website.
+To publish:
+1. Open https://github.com/arsonasaritha0-crypto/cj-associates
+2. Add file > Upload files.
+3. Upload index.html, styles.css, script.js (replace existing files) and commit changes.
+4. Wait a few minutes and refresh https://arsonasaritha0-crypto.github.io/cj-associates/
 
-Portfolio panels are still concept visuals. Replace them with project images you are authorised to publish.
+Portfolio visuals are still sample concept panels. Replace them with your own authorised project images when ready.
